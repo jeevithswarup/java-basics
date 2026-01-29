@@ -1,7 +1,7 @@
 import java.util.Arrays;
 import java.util.Collections;
 
-public class Scalar_Product {
+public class Min_Scalar_Product {
     public void find_scalar_product(int[] arr1,Integer[] arr2,int n,int sum) {
         Arrays.sort(arr1);
         Arrays.sort(arr2, Collections.reverseOrder());
@@ -18,7 +18,7 @@ public class Scalar_Product {
      Integer[] arr2 = new Integer[]{ 2, 4, 5, 1 };
      int n = arr1.length;
      int sum = 0;
-     Scalar_Product obj = new Scalar_Product();
+     Min_Scalar_Product obj = new Min_Scalar_Product();
      obj.find_scalar_product(arr1, arr2, n, sum);
     }
     
