@@ -11,8 +11,8 @@ public class Factor {
             if (temp % i == 0) {
                 System.out.print(i + ",");
             }
-    
-     sc.close();    }
+     sc.close();
+        }
     }
     
     public static void main(String[] args) {
