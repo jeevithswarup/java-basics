@@ -1,3 +1,4 @@
+package PreInsta;
 import java.util.Scanner;
 public class PrintReverseOrder {
     int s=0;

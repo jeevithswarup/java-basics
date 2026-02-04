@@ -1,3 +1,4 @@
+package PreInsta;
 import java.util.Arrays;
 
 public class MergeArrays {

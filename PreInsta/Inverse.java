@@ -1,3 +1,4 @@
+package PreInsta;
 public class Inverse {
      public void InverseNumber(int n){
             

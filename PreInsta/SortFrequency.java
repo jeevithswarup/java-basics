@@ -1,3 +1,4 @@
+package PreInsta;
 import java.util.Arrays;
 public class SortFrequency {
     int[] arr = new int[] { 30, 20, 30, 10, 20, 20 };

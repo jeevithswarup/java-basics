@@ -1,3 +1,4 @@
+package PreInsta;
 public class Even_Odd_Array {
     public void find_even_odd(int[] arr,int n) {
         int even_count = 0;

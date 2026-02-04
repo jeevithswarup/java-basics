@@ -1,3 +1,4 @@
+package PreInsta;
 public class Secound_largest {
     public int Check_Secound_Largest() {
         int[] arr = new int[] {1,2,1};

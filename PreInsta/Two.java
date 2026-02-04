@@ -1,3 +1,4 @@
+package PreInsta;
 public class Two {
     public void multiply(int n) {
          for (int i = 1; i <= 10; i++) {

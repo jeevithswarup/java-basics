@@ -1,3 +1,4 @@
+package PreInsta;
 class ConvertString {
     String str = new String("HUMsAfaR");
 

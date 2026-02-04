@@ -1,3 +1,4 @@
+package LeetCode;
 public class LC003_height {
      
     int[] arr = new int[] { 8, 3, 4, 2, 8, 5, 1, 7 };

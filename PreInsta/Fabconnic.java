@@ -1,3 +1,4 @@
+package PreInsta;
 public class Fabconnic {
     public static void main(String[] args) {
         int n = 10;
