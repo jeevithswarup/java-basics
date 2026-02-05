@@ -5,7 +5,7 @@ public class LC283{
         int[] nums = new int[] { 0, 1, 0, 3, 2 };
         int k = 0;
         for (int i = 0; i < nums.length; i++) {
-            if (nums[i] != 0) {
+            if (nums[i] != 0){
                 nums[k] = nums[i];
                 k++;
             }
