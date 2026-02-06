@@ -1,2 +1,2 @@
- // arr[k] = arr[arr.length - 1];
-        // k++;
+     // arr[0] = i % 10;
+            // arr[1] = i / 10;
