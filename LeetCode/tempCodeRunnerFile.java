@@ -1,2 +1,1 @@
-     // arr[0] = i % 10;
-            // arr[1] = i / 10;
+ arr2[arr.length - 1] = 1;

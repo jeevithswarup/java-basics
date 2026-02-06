@@ -1,22 +1,22 @@
 import java.util.Arrays;
-
 public class LC66 {
     public void PlusOne() {
-   
-        int[] arr = new int[] {  5 };
-        if (arr.length == 1) {
-            int i = arr[0];
-            arr[0] = i % 10;
-            arr[1] = i / 10;
-
+        int[] arr = new int[] {3,4,5,9};
+         int[] arr2 = new int[arr.length + 1];
+        if (arr.length == 1 && arr[0] < 9) {
+            arr[0] += 1;
+        } else if (arr[arr.length - 1] == 9) {
+            for (int i = 0; i < arr.length; i++) {
+                arr2[i] = arr[i];
+            }
+            arr2[arr.length - 1] = 1;
         } else {
-            int i = arr[arr.length - 1];
-            i += 1;
-            arr[arr.length - 1] = i;
-            System.out.println(Arrays.toString(arr));
+            arr[arr.length - 1] += 1;
         }
+        System.out.println(Arrays.toString(arr2));
     }
-    
+
+
      public static void main(String[] args) {
          LC66 obj = new LC66();
          obj.PlusOne();
