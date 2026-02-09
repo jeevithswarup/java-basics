@@ -1,1 +1,1 @@
- arr2[arr.length - 1] = 1;
+ break;
