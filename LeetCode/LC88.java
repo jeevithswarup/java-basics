@@ -26,7 +26,6 @@ public class LC88 {
         }
         System.out.println(Arrays.toString(nums1));
     }
-    
 
     public static void main(String[] args) {
         LC88 obj = new LC88();
