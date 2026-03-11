@@ -1,26 +1,39 @@
 
+import java.util.Arrays;
+
+
 public class LC88 {
 
     public void merge(int nums1[], int nums2[], int m, int n) {
-        for (int i = m - 1; i >= 0; i--) {
-            for (int j = n - 1; j >= 0; j--) {
-                if (nums1[i] < nums2[j]) {
-                    nums1[i + j + 1] = nums1[j];
-                } else {
-                
-               }
+        int i = m - 1;
+        int j = n - 1;
+        int k = m + n - 1;
+        while (i >= 0 && j >= 0) {
+            if (nums1[i] > nums2[j]) {
+                nums1[k] = nums1[i];
+                i--;
 
+            } else {
+                nums1[k] = nums2[j];
+                j--;
             }
+            k--;
         }
+        while (j >= 0) {
+            nums1[k] = nums2[j];
+            k--;
+            j--;
+        }
+        System.out.println(Arrays.toString(nums1));
     }
     
 
     public static void main(String[] args) {
         LC88 obj = new LC88();
-        int[] nums1 = new int[] { 1, 2, 9, 0, 0, 0 };
-        int[] nums2 = new int[] { 2, 5, 6 }; 
-        int m = 3;
-        int n = 3;
+        int[] nums1 = new int[] {0};
+        int[] nums2 = new int[] {1}; 
+        int m = 0;
+        int n = 1;
         obj.merge(nums1, nums2, m, n);
     }
 }
