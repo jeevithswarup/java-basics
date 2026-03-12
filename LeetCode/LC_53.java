@@ -1,15 +1,17 @@
 class LC_53 {
     public int subarray(int[] nums) {
-        int sum = 0;
+        int sum = Integer.MIN_VALUE;
         int max_sum = 0;
         for (int i = 0; i < nums.length; i++) {
             sum = nums[i];
-            for (int j = i + 1; j < nums.length; j++) {
-                sum += nums[j];
+            if (sum > 0) {
+                sum += nums[i + 1];
                 if (sum > max_sum) {
                     max_sum = sum;
                 }
             }
+
+           
         }
         System.out.print(max_sum);
 
