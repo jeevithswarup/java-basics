@@ -2,28 +2,24 @@
 public class LC_643 {
     
     public double FindMaxAverage(int[] nums, int k) {
-        
         double sum = 0;
-
         for (int i = 0; i < k; i++) {
             sum += nums[i];
         }
-        double max_Avg = sum / k;
+        double max_sum = sum;
 
         int left = 0;
         int right = k;
         int n = nums.length;
         while (right < n) {
           sum= sum - nums[left] + nums[right];
-          double avg = sum / k;
-            
-          if (avg > max_Avg) {
-              max_Avg = avg;
+          if (sum > max_sum) {
+              max_sum = sum;
           }
             left++;
             right++;
         }
-        return max_Avg;
+        return max_sum/k;
     }
     public static void main(String[] args) {
         LC_643 obj=new LC_643();
