@@ -1,13 +1,10 @@
-
 public class LC_643 {
-    
     public double FindMaxAverage(int[] nums, int k) {
         double sum = 0;
         for (int i = 0; i < k; i++) {
             sum += nums[i];
         }
         double max_sum = sum;
-
         int left = 0;
         int right = k;
         int n = nums.length;
