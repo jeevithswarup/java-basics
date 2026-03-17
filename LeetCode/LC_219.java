@@ -1,9 +1,9 @@
 
 
 public class LC_219 {
-    public int containsNearbyDuplicate(int[] nums, int k) {
+    public boolean containsNearbyDuplicate(int[] nums, int k) {
     
-        return sum;
+        return True;
     }
     public static void main(String[] args) {
         LC_219 obj = new LC_219();
