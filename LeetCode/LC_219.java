@@ -1,9 +1,22 @@
 
 
 public class LC_219 {
-    public boolean containsNearbyDuplicate(int[] nums, int k) {
-    
-        return True;
+    public int containsNearbyDuplicate(int[] nums, int k) {
+        int sum = 0;
+        
+        for (int i = 0; i < k; i++) {
+            sum += nums[i];
+        }
+         int max_sum = sum;
+        for (int i = 0; i < nums.length-k; i++) {
+            int j = k + i;
+            sum= sum-nums[i]+nums[j];
+            if (sum > max_sum) {
+                max_sum = sum;
+            }
+        }
+          
+        return sum;
     }
     public static void main(String[] args) {
         LC_219 obj = new LC_219();
