@@ -21,7 +21,7 @@ public class LC_003{
     public static void main(String[] args) {
         LC_003 obj = new LC_003();
         String s = new String("abcabcbb");
-        obj.Long_substring(s);
+        System.out.println(obj.Long_substring(s));
        
     }
     
