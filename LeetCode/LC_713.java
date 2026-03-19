@@ -4,8 +4,16 @@ public class LC_713 {
 
     public int numSubarrayProductLessThanK(int [] nums,int k){
         int product = 1;
+        int left = 0;
         for (int right = 0; right < nums.length; right++) {
             product *= nums[right];
+
+            while (product > k) {
+                product = product / nums[left];
+                left++;
+
+                
+            }
         }
         return 0;
     }
