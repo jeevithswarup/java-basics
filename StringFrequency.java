@@ -1,5 +1,4 @@
 import java.util.HashMap;
-import java.util.Map;
 public class StringFrequency {
     public int Frequency(String s) {
         HashMap<Character, Integer> map = new HashMap<>();
@@ -20,9 +19,10 @@ public class StringFrequency {
             char ch = s.charAt(i);
             map.put(ch, map.getOrDefault(ch, 0) + 1);
         }
-        for (Map.Entry<Character, Integer> entry : map.entrySet()) {
-            if (entry.getValue() == 1) {
-                System.out.println(entry.getKey());
+        for (int i = 0; i < s.length(); i++) {
+            char ch = s.charAt(i);
+            if (map.get(ch)==1) {
+                System.out.println(ch);
             }
 
         }
@@ -31,9 +31,9 @@ public class StringFrequency {
 
     public static void main(String[] args) {
         StringFrequency obj = new StringFrequency();
-        String s = "aabbbcc";
+        String s = "aabbbc";
         System.out.println(obj.Frequency(s));
-        System.out.println(obj.Non_repeating(s));
+        obj.Non_repeating(s);
 
     }
 }
