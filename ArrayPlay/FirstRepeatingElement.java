@@ -18,7 +18,7 @@ public class FirstRepeatingElement {
     }
     public static void main(String[] args) {
         FirstRepeatingElement obj = new FirstRepeatingElement();
-        int[] arr = new int[] { 2, 3, 4, 2, 3, 5 };
+        int[] arr = new int[] {3, 2, 1, 2, 3};
         obj.First_Repeating_values(arr);
     }
 }
