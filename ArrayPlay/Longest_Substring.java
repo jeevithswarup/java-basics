@@ -27,7 +27,7 @@ public class Longest_Substring {
 
      public static void main(String[] args) {
          Longest_Substring obj = new Longest_Substring();
-         String s = "aabbc";
+         String s = "aabcc";
          System.out.println(obj.NonRepeating(s));
      }
 }
