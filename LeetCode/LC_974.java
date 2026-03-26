@@ -23,6 +23,6 @@ public class LC_974 {
         LC_974 obj = new LC_974();
         int[] nums = new int[] { 4, 5, 0, -2, -3, 1 };
         int k = 5;
-        System.out.println(obj.);
+        System.out.println(obj.subarraysDivByK(nums, k));
     }
 }
