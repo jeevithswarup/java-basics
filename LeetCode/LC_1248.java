@@ -15,7 +15,11 @@ public class LC_1248 {
         }
         return count;
     }
+
     public static void main(String[] args) {
         LC_1248 obj = new LC_1248();
+        int[] nums = new int[] { 2, 2, 2, 1, 2, 2, 1, 2, 2, 2 };
+        int 
     }
+    
 }
