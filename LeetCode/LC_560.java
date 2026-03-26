@@ -16,7 +16,7 @@ public class LC_560 {
         }
         return count;
     }
-    public static void main(String[] args) {
+    public static void main(String[] args) {    
         LC_560 obj = new LC_560();
         int[] arr = new int[] { 1, 2, 3, -2, 5 };
         int k = 3;
