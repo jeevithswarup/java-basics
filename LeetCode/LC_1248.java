@@ -16,6 +16,6 @@ public class LC_1248 {
         return count;
     }
     public static void main(String[] args) {
-        LC_12
+        LC_1248 obj = new LC_1248();
     }
 }
