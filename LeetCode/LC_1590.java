@@ -16,7 +16,7 @@ public class LC_1590 {
         }
         sum = 0;
         int count = 0;
-        int min_len = 0;
+        int min_len = Integer.MAX_VALUE;
         for (int i = 0; i < nums.length; i++) {
             sum += nums[i];
             if (map.containsKey(sum - target)) {
@@ -34,8 +34,8 @@ public class LC_1590 {
     }
     public static void main(String[] args) {
         LC_1590 obj = new LC_1590();
-        int[] nums = new int[] {1,2,3};
-        int p = 6;
+        int[] nums = new int[] {6,3,5,2};
+        int p = 9;
         System.out.println(obj.minSubarray(nums, p));
     }
 
