@@ -1,3 +1,4 @@
+import java.util.HashMap;
 public class LC_523{
    
     public boolean checkSubarraySum(int[] nums, int k) {
