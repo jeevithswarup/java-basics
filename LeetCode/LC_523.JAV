@@ -16,6 +16,12 @@ public class LC_523{
         }
         return false;
     }
+      public static void main(String[] var0) {
+      LC_523 nums = new LC_5234();
+      String var2 = "ABAB";
+      byte var3 = 2;
+      var1.characterReplacement(var2, var3);
+   }
 
 
 }
