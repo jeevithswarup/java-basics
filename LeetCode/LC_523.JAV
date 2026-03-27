@@ -18,8 +18,9 @@ public class LC_523{
     }
       public static void main(String[] var0) {
       LC_523 nums = new LC_523();
-    
-      
+      int [] nums=new nums[]{23,2,4,6,7};
+      int k = 6;
+      System.out.println(obj.che)
    }
 
 
