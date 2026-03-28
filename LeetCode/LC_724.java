@@ -22,7 +22,7 @@ public class LC_724 {
 
     public static void main(String[] args) {
         LC_724 obj = new LC_724();
-        int[] nums = new int[] { 1, 7, 3, 6, 5, 6 };
+        int[] nums = new int[] {2,1,-1};
        System.out.println(obj.pivotIndex(nums));
     }
 }
