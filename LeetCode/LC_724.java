@@ -5,18 +5,13 @@ public class LC_724 {
             sum += nums[i];
         }
         int leftsum = 0;
-            
         for (int j = 0; j < nums.length; j++) {   
             sum -= nums[j];
-
             if (leftsum == sum) {
                 return j;
             }
-
-            leftsum += nums[j];
-          
+            leftsum += nums[j]; 
         }
-
         return -1;
     }
 
