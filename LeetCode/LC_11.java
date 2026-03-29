@@ -20,6 +20,8 @@ public class LC_11 {
         return max_area;
     }
     public static void main(String[] args) {
-        LC
+        LC_11 obj = new LC_11();
+        int[] arr = new int[] { 1, 8, 6, 2, 5, 4, 8, 3, 7 };
+        System.out.println(obj.Max_Area(arr));
     }
 }
