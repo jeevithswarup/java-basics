@@ -1,6 +1,4 @@
 public class LC_11 {
-     
-    
     public int Max_Area(int arr[]) {
         int left = 0;
         int right = arr.length - 1;
