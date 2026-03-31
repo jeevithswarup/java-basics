@@ -10,10 +10,14 @@ public class LC_035 {
 
             if (nums[mid] == target) {
                 return mid;
-            else id    
+            }
+            else if(nums[mid]<target){
+                low=mid+1;
+            } else {
+                high = mid - 1;
             }
         }
-        return 0;
+        return low;
     }
   public static void main(String[] args) {
       LC_035 obj = new LC_035();
