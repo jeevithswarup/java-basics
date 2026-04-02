@@ -21,6 +21,7 @@ public class LC_704 {
         LC_704 obj = new LC_704();
         int[] nums = new int[] { -1, 1, 4, 5, 8, 9 };
         int target = 5;
+        System.out.println(obj.search(nums, target));
     }
 
 }
