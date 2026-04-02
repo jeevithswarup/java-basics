@@ -18,7 +18,7 @@ public class LC_704 {
         return -1;
     }
     public static void main(String[] args) {
-        LC
+        LC_704 OBJ
     }
 
 }
