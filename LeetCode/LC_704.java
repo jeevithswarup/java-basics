@@ -20,7 +20,7 @@ public class LC_704 {
     public static void main(String[] args) {
         LC_704 obj = new LC_704();
         int[] nums = new int[] { -1, 1, 4, 5, 8, 9 };
-        int 
+        int target = 5;
     }
 
 }
