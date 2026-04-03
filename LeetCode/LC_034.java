@@ -29,7 +29,6 @@ public class LC_034{
     private int findLast(int[] nums, int target) {
         int low = 0, high = nums.length - 1;
         int ans = -1;
-
         while (low <= high) {
             int mid = (low + high) / 2;
 
