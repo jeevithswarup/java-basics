@@ -6,7 +6,6 @@ public class LC_034{
         int last = findLast(nums, target);
         return new int[]{first, last};
     }
-
     private int findFirst(int[] nums, int target) {
         int low = 0, high = nums.length - 1;
         int ans = -1;
