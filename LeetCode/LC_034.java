@@ -11,8 +11,16 @@ public int[] searchRange(int[] nums, int target) {
         if (nums[mid] == target && nums[mid - 1] == target) {
             result[0] = mid;
             result[1] = mid - 1;
-            return  re;
+            return result;
+        } else if (nums[mid] == target && nums[mid + 1] == target) {
+            result[0] = mid;
+            result[1] = mid + 1;
+        } else if (nums[mid] < target) {
+            low = mid + 1;
+        } else {
+            high = mid - 1;
         }
+        
        } 
 
     }
