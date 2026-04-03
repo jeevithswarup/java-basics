@@ -13,7 +13,6 @@ public class LC_034{
 
         while (low <= high) {
             int mid = (low + high) / 2;
-
             if (nums[mid] == target) {
                 ans = mid;
                 high = mid - 1; // move left
