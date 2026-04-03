@@ -44,7 +44,6 @@ public class LC_034{
         }
         return ans;
     }
-
     public static void main(String[] args) {
         LC_034 obj = new LC_034();
         int[] nums = new int[] { 5, 7, 7, 8, 8, 10 };
