@@ -9,7 +9,8 @@ public int[] searchRange(int[] nums, int target) {
        while(low<high){
         int mid=(low+high)/2;
         if (nums[mid] == target && nums[mid - 1] == target) {
-            result[0]=
+            result[0] = mid;
+            result[1] = mid - 1;
             return  re;
         }
        } 
