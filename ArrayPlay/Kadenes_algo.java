@@ -20,7 +20,7 @@ public class Kadenes_algo {
 
         }
         System.out.println(start + " " + end);
-        return 0;
+        return max_sum;
     }
     public static void main(String[] args) {
         Kadenes_algo obj = new Kadenes_algo();
