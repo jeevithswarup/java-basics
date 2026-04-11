@@ -11,7 +11,7 @@ public class LC_1482 {
             min = Math.min(min, x);
             max = Math.max(max, x);
         }
-    public boolean IsBloom(int [] bloomDay,int day,int m,int k){
+    public boolean IsBloom(int []bloomDay,int day,int m,int k){
         int count=0;
         int no_bouquets=0;
 
@@ -30,11 +30,14 @@ public class LC_1482 {
             return false;
         }
     }   
-      public int FindDay(int min,int max){
+      public int FindDay(int[]bloomDay,int min,int max,int m,int k){
         int low=min;
-        int high=mid;
+        int high=max;
         while(low<=high){
-            int mid=(low+high)/2
+            int mid=(low+high)/2;
+            if(IsBloom(bloomDay,mid,m,k)==true){
+              high=mid-1;
+            }
         }
       }
     
