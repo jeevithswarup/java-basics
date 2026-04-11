@@ -4,16 +4,38 @@ public class LC_1482 {
         int n = bloomDay.length;
         int min = Integer.MAX_VALUE;
         int max = Integer.MIN_VALUE;
+        if (n > m * k) {
+            return -1;
+        }
         for (int x : bloomDay) {
             min = Math.min(min, x);
             max = Math.max(max, x);
         }
-        System.out.println(min+""+max);
-        if (n > m * k) {
-            return -1;
+    public boolean IsBloom(int [] bloomDay,int day,int m,int k){
+        int count=0;
+        int no_bouquets=0;
+
+        for(int i=0;i<bloomDay.length;i++){
+            if(bloomDay[i]<=day){
+                count++;
+            }else{
+                no_bouquets+=(count/k);
+                count=0;
+            }
+        }
+        no_bouquets+=count/k;
+        if(no_bouquets>=m){
+            return true;
         }
 
+    }    
+
+
+
+        
+        return 0;
     }
+
     public static void main(String[] args) {
         LC_1482 obj = new LC_1482();
         int[] bloomDay = new int[] { 1, 10, 3, 10, 2 };
