@@ -41,6 +41,7 @@ public class LC_1482 {
                 low=mid+1;
             }
         }
+        return low;
       }
     
    return 0;
