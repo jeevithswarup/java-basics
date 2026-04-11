@@ -6,8 +6,9 @@ public class LC_1482 {
         int max = Integer.MIN_VALUE;
         for (int x : bloomDay) {
             min = Math.min(min, x);
-            max=Math
+            max = Math.max(max, x);
         }
+        System.out.println(min+""+max);
         if (n > m * k) {
             return -1;
         }
