@@ -37,6 +37,8 @@ public class LC_1482 {
             int mid=(low+high)/2;
             if(IsBloom(bloomDay,mid,m,k)==true){
               high=mid-1;
+            }else{
+                low=mid+1;
             }
         }
       }
