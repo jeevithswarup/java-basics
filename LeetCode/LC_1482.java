@@ -26,14 +26,19 @@ public class LC_1482 {
         no_bouquets+=count/k;
         if(no_bouquets>=m){
             return true;
+        }else{
+            return false;
         }
-
-    }    
-
-
-
-        
-        return 0;
+    }   
+      public int FindDay(int min,int max){
+        int low=min;
+        int high=mid;
+        while(low<=high){
+            int mid=(low+high)/2
+        }
+      }
+    
+   return 0;
     }
 
     public static void main(String[] args) {
