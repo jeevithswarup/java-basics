@@ -2,14 +2,14 @@ public class LC_1283 {
     int total_sum = 0;
 
     public int smallestDivisor(int[] nums, int threshold) {
-
+             for (int x : nums) {
+            total_sum += (int)Math.ceil((double)x / 5);
+         }
         return 0;
     }
 
     public int divisorValue(int[] nums, int threshold) {
-        for (int x : nums) {
-            total_sum += Math.ceil(x / threshold);
-         }
+      
         return total_sum;
     }
     
