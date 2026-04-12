@@ -1,12 +1,14 @@
 public class LC_1283 {
     int total_sum = 0;
-    int low = 0;
-    int high = 0;
+    
 
     public int smallestDivisor(int[] nums, int threshold) {
+        int low = 1;
+        int high = 0;
         for (int i = 0; i < nums.length; i++) {
             high = Math.max(high, nums[i]);
         }
+        System.out.println(low +" "+ high);
         while (low <= high) {
             int mid = (low + high) / 2;
 
@@ -21,9 +23,8 @@ public class LC_1283 {
     }
     
 
-    public int divisorValue(int[] nums, int threshold,int mid) {
-       
-        
+    public int divisorValue(int[] nums, int threshold, int mid) {
+        System.out.println(mid);
         for (int x : nums) {
             total_sum += (int)Math.ceil((double)x / mid);
          }
@@ -35,6 +36,6 @@ public class LC_1283 {
         int[] nums = new int[] {1,2,5,9};
         int threshold = 6;
         System.out.println(obj.smallestDivisor(nums, threshold));
-        System.out.println(obj.divisorValue(nums, threshold));
+        
     }
 }
