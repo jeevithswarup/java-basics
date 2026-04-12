@@ -8,10 +8,27 @@ public class LC_1011 {
             low = Math.max(low, x);
             high += x;
         }
+        while (low <= high) {
+            int capacity = (low + high) / 2;
+            
+        }
 
-        return 0;
+        return 0 ;
     }
-    public boolean 
+
+    public boolean isValid(int[] weights, int capacity, int days) {
+        int current_load = 0;
+        int required_days= 1;
+        for (int w : weights) {
+            if (current_load + w <= capacity) {
+                current_load += w;
+            } else {
+                required_days++;
+                current_load = w;
+            }
+        }
+        return required_days < days;
+    }
 
 
     public static void main(String[] args) {
