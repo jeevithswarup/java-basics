@@ -1,7 +1,4 @@
 public class LC_1283 {
-   
-    
-
     public int smallestDivisor(int[] nums, int threshold) {
         if(threshold < nums.length) return -1;
         int low = 1;
@@ -11,14 +8,12 @@ public class LC_1283 {
         }
         while (low <= high) {
             int mid = (low + high) / 2;
-
             if (divisorValue(nums, mid) <= threshold) {
                 high = mid - 1;
             } else {
                 low = mid + 1;
             }
         }
-
         return low;
     }
     public int divisorValue(int[] nums, int mid) {
@@ -28,7 +23,6 @@ public class LC_1283 {
          }
         return total_sum;
     }
-    
     public static void main(String[] args) {
         LC_1283 obj = new LC_1283();
         int[] nums = new int[] {1,1,1,1};
