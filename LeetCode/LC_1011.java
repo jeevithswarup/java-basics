@@ -10,10 +10,18 @@ public class LC_1011 {
         }
         while (low <= high) {
             int capacity = (low + high) / 2;
+
+
+            if (isValid(weights, capacity, days)) {
+                high = capacity - 1;
+            } else {
+
+                low = capacity + 1;
             
+            }
         }
 
-        return 0 ;
+        return  low;
     }
 
     public boolean isValid(int[] weights, int capacity, int days) {
@@ -27,7 +35,7 @@ public class LC_1011 {
                 current_load = w;
             }
         }
-        return required_days < days;
+        return required_days <= days;
     }
 
 
@@ -35,7 +43,7 @@ public class LC_1011 {
         LC_1011 obj = new LC_1011();
         int[] weights = new int[] { 1, 2, 3, 4, 5, 6, 7, 8, 9, 10 };
         int days = 5;
-        obj.shipWithinDays(weights, days);
+        System.out.println(obj.shipWithinDays(weights, days));
     }
 }
 
