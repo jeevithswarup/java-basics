@@ -8,7 +8,6 @@ public class LC_1283 {
         for (int i = 0; i < nums.length; i++) {
             high = Math.max(high, nums[i]);
         }
-        System.out.println(low +" "+ high);
         while (low <= high) {
             int mid = (low + high) / 2;
 
@@ -24,7 +23,7 @@ public class LC_1283 {
     
 
     public int divisorValue(int[] nums, int threshold, int mid) {
-        System.out.println(mid);
+   
         for (int x : nums) {
             total_sum += (int)Math.ceil((double)x / mid);
          }
