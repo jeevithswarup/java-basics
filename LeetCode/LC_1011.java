@@ -2,14 +2,7 @@ public class LC_1011 {
 
 
     public int shipWithinDays(int[] weights, int days) {
-        int low = 0;
-        int high = 0;
-        for (int x : weights) {
-            low = Math.max(low, x);
-            high += x;
-        }
-        System.out.println(low+" "+high);
-
+        
 
         return 0;
     }
