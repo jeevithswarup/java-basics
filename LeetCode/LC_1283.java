@@ -17,7 +17,7 @@ public class LC_1283 {
             }
         }
 
-        return 0;
+        return low;
     }
     
 
