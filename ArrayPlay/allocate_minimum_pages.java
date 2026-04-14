@@ -33,7 +33,7 @@ public class allocate_minimum_pages {
                 students++;
                 countPages = pages;
             }
-            if (students >= k) {
+            if (students <= k) {
                 return true;
             }
 
