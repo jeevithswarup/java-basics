@@ -2,11 +2,23 @@ public class allocate_minimum_pages {
     
 
     public int findPages(int[] arr, int k) {
+        int low = 0;
+        int high = 0;
         for (int x : arr) {
-            
+            low = Math.max(low, x);
+            high += x;
+        }
+        while (low <= high) {
+            int max_pages = low + (high - low) / 2;
+
+            if (isValid(arr, k, max_pages)) {
+                high = max_pages - 1;
+            } else {
+                low = max_pages + 1;
+            }
         }
 
-        return 0;
+        return low;
 
     }
     
