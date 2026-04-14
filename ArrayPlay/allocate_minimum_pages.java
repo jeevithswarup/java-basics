@@ -33,14 +33,14 @@ public class allocate_minimum_pages {
                 students++;
                 countPages = pages;
             }
-            if (students <= k) {
-                return true;
+            if (students> k) {
+                return false;
             }
 
         }
 
 
-        return false ;
+        return true ;
     }
     public static void main(String[] args) {
         allocate_minimum_pages obj   = new allocate_minimum_pages();
