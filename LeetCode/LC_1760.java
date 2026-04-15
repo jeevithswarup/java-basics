@@ -17,11 +17,7 @@ public class LC_1760 {
                 return false;
             }
         }
-        
-        
-        
-
-
+        return true;
     } 
 
 
