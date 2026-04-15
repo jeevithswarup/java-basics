@@ -16,7 +16,7 @@ public class LC_1760 {
                 low = max_balls + 1;
             }
         }
-        return ;
+        return low;
     }
 
     public boolean isValid(int[] nums, int maxOperations, int max_balls) {
