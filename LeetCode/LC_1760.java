@@ -20,7 +20,7 @@ public class LC_1760 {
     }
 
     public boolean isValid(int[] nums, int maxOperations, int max_balls) {
-        int splitCount = 0;
+        int splitCount = 1;
         for (int balls : nums) {
             if (balls > max_balls) {
                 splitCount += ((balls - 1) / max_balls);
