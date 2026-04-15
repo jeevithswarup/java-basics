@@ -23,6 +23,10 @@ public class LC_1760 {
 
 
     public static void main(String[] args) {
+        LC_1760 obj = new LC_1760();
+        int []nums=new int[]{2,4,8,2};
+        int maxOperations = 4;
+        System.out.println(obj.minimumSize(nums, maxOperations));
         
     }
 }
