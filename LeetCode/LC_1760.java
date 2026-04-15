@@ -1,15 +1,24 @@
 public class LC_1760 {
     
     public int minimumSize(int[] nums, int maxOperations) {
+        int low = 1;
+        int high = 0;
+        for (int x : nums) {
+            high = Math.max(high, x);
+        }
+        while (low <= high) {
+            
+            int max_balls = low + (high - low) / 2;
+        }
+
+    
 
         return 0;
     }
 
     public boolean isValid(int[] nums, int maxOperations, int max_balls) {
         int splitCount = 0;
-
         for (int balls : nums) {
-
             if (balls > max_balls) {
                 splitCount += ((balls - 1) / max_balls);
             }
