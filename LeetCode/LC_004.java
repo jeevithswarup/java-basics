@@ -32,7 +32,7 @@ public class LC_004 {
             j++;
             k++;
         }
-        System.out.println(Arrays.toString(merged));
+    \
         return 0;
     }
 public static void main(String[] args) {
