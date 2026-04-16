@@ -2,15 +2,19 @@ public class TwoDimensionArray {
     
     public int MatrixSum(int[][] nums) {
         int sum = 0;
+        int max_sum = Integer.MIN_VALUE;
         for (int i = 0; i < nums.length; i++) {
             for (int j = 0; j < nums[i].length; j++) {
                 sum += nums[i][j];
+
             }
+            max_sum = Math.max(max_sum, sum);
+            sum = 0;
         }
 
 
 
-        return sum;
+        return max_sum;
     }
     public static void main(String[] args) {
         TwoDimensionArray obj = new TwoDimensionArray();
