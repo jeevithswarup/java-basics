@@ -18,7 +18,6 @@ public class LC_1760 {
         }
         return low;
     }
-
     public boolean isValid(int[] nums, int maxOperations, int max_balls) {
         int splitCount = 0;
         for (int balls : nums) {
