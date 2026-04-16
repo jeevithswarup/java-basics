@@ -1,3 +1,5 @@
+import java.util.Arrays;
+
 public class LC_004 {
     
 
@@ -10,7 +12,7 @@ public class LC_004 {
         int k = 0;
         while (i < m && j < n) {
 
-            if (nums1[i] < nums2[j]) {
+            if (nums1[i] <= nums2[j]) {
                 merged[k] = nums1[i];
                 i++;
                 k++;
@@ -21,18 +23,23 @@ public class LC_004 {
             }
         }
         while (i < m) {
-            merged[i++] = nums1[i];
+            merged[k] = nums1[i];
+            i++;
+            k++;
         }
         while (j < n) {
-            merged[j++] = nums2[j];
+            merged[k] = nums2[j];
+            j++;
+            k++;
         }
+        System.out.println(Arrays.toString(merged));
         return 0;
     }
 public static void main(String[] args) {
     LC_004 obj = new LC_004();
     int[] nums1 = new int[] { 1, 3 };
     int[] nums2 = new int[] { 2 };
-    System.out.println(obj.);
+    System.out.println(obj.findMedianSortedArrays(nums1, nums2));
 }
     
 }
