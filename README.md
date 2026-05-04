@@ -9,7 +9,8 @@
 [![Status](https://img.shields.io/badge/Status-Active%20🔥-brightgreen?style=for-the-badge)](https://github.com/jeevithswarup/java-basics)
 [![License](https://img.shields.io/badge/License-MIT-blue?style=for-the-badge)](LICENSE)
 [![Last Commit](https://img.shields.io/github/last-commit/jeevithswarup/java-basics?style=for-the-badge&color=purple)](https://github.com/jeevithswarup/java-basics/commits/main)
-[![Problems Solved](https://img.shields.io/badge/Problems%20Solved-45%2B-orange?style=for-the-badge)](https://github.com/jeevithswarup/java-basics/tree/main/LeetCode)
+[![Problems Solved](https://img.shields.io/badge/Problems%20Solved-153-orange?style=for-the-badge)](https://codolio.com/profile/jeevith_swarup)
+[![Streak](https://img.shields.io/badge/Current%20Streak-39%20Days%20🔥-red?style=for-the-badge)](https://codolio.com/profile/jeevith_swarup)
 
 </div>
 
@@ -344,7 +345,34 @@ java -cp LeetCode LC001_TwoSum
 
 ![GitHub Streak](https://streak-stats.demolab.com?user=jeevithswarup&theme=tokyonight&hide_border=true)
 
-[![LeetCode Stats](https://leetcard.jacoblin.cool/Jeevith_1722?theme=dark&font=Nunito&ext=heatmap)](https://leetcode.com/u/Jeevith_1722/)
+### 🧩 Problem Solving Stats (via Codolio)
+
+| Platform | Solved | Details |
+|----------|:------:|---------|
+| 🟡 LeetCode | 96 | Easy: 41 · Medium: 52 · Hard: 3 |
+| 🟢 HackerRank | 44 | Badges: Java, Python, SQL |
+| 🔵 CodeChef | 13 | Competitive Programming |
+| **Total** | **153** | **Across all platforms** |
+
+| 📅 Active Days | 🔥 Current Streak | ⚡ Max Streak | 📤 Submissions |
+|:--------------:|:-----------------:|:-------------:|:--------------:|
+| 51 | 39 days | 39 days | 140 |
+
+### 🏷️ Top DSA Topics Solved
+
+| Topic | Problems |
+|-------|:--------:|
+| Arrays | 73 |
+| Binary Search | 28 |
+| Math | 17 |
+| Two Pointers | 15 |
+| HashMap & Set | 15 |
+| Sliding Window | 11 |
+| Sorting | 9 |
+| Matrix | 8 |
+| Dynamic Programming | 7 |
+
+[![Codolio Profile](https://img.shields.io/badge/Full%20Stats%20on-Codolio-6C63FF?style=for-the-badge&logo=data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggZmlsbD0id2hpdGUiIGQ9Ik0xMiAyQzYuNDggMiAyIDYuNDggMiAxMnM0LjQ4IDEwIDEwIDEwIDEwLTQuNDggMTAtMTBTMTcuNTIgMiAxMiAyem0tMSAxNEg5VjhoMnY4em00IDBoLTJWOGgydjh6Ii8+PC9zdmc+)](https://codolio.com/profile/jeevith_swarup)
 
 </div>
 
@@ -356,6 +384,7 @@ java -cp LeetCode LC001_TwoSum
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/jeevith-swarup-tuta-284607345/)
 [![LeetCode](https://img.shields.io/badge/LeetCode-Profile-FFA116?style=for-the-badge&logo=leetcode&logoColor=black)](https://leetcode.com/u/Jeevith_1722/)
+[![Codolio](https://img.shields.io/badge/Codolio-Stats-6C63FF?style=for-the-badge)](https://codolio.com/profile/jeevith_swarup)
 [![GitHub](https://img.shields.io/badge/GitHub-Follow-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/jeevithswarup)
 
 </div>
@@ -366,6 +395,6 @@ java -cp LeetCode LC001_TwoSum
 
 ### ⭐ If this repo helped you, drop a star — it keeps me motivated to solve more!
 
-*Built with ☕ and consistency by [Jeevith Swarup](https://github.com/jeevithswarup)*
+*Built with ☕ and consistency by [Jeevith Swarup](https://github.com/jeevithswarup) · [153 problems solved](https://codolio.com/profile/jeevith_swarup) across LeetCode, HackerRank & CodeChef*
 
 </div>
