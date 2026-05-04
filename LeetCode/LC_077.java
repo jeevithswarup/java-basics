@@ -17,13 +17,11 @@ public class LC_077 {
             result.add(new ArrayList<>(temp));
             return;
         }
-
         for (int i = index; i <= n; i++) {
             temp.add(i);
             helper(i + 1, k, n, temp, result);
             temp.remove(temp.size() - 1);
         }
-
     }
     public static void main(String[] args) {
         LC_077 obj = new LC_077();
