@@ -343,9 +343,7 @@ java -cp LeetCode LC001_TwoSum
 
 ![Jeevith's GitHub Stats](https://github-stats-alpha.vercel.app/api?username=jeevithswarup&cc=0d1117&tc=ffffff&ic=ffffff&bc=0d1117)
 
-![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=jeevithswarup&layout=compact&theme=tokyonight&hide_border=true&cache_seconds=1800)
 
-![GitHub Streak](https://nirzak-streak-stats.vercel.app?user=jeevithswarup&theme=tokyonight&hide_border=true)
 
 ### 🧩 Problem Solving Stats (via Codolio)
 
