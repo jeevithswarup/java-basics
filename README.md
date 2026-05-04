@@ -29,6 +29,7 @@ This repo is for students and developers who want to crack SWE interviews by bui
 
 ## 🗺️ Progress Tracker
 
+<!-- PROGRESS_TABLE_START -->
 | # | Pattern | Status | Problems Solved | Difficulty |
 |---|---------|--------|:--------------:|------------|
 | 1 | 📦 Arrays (Fundamentals) | ✅ Done | 28+ | Easy – Medium |
@@ -38,7 +39,7 @@ This repo is for students and developers who want to crack SWE interviews by bui
 | 5 | 📈 Kadane's Algorithm | ✅ Done | 3+ | Medium |
 | 6 | 🔀 Sorting Algorithms | ✅ Done | 4+ | Easy – Hard |
 | 7 | 🔍 Binary Search | ✅ Done | 10+ | Medium – Hard |
-| 8 | 🔁 Recursion | 🔄 In Progress | [XX] | Medium |
+| 8 | 🔁 Recursion | 🔄 In Progress | — | Medium |
 | 9 | 🌿 Backtracking | 🔒 Coming Soon | — | — |
 | 10 | 🔗 Linked Lists | 🔒 Coming Soon | — | — |
 | 11 | 📚 Stacks & Queues | 🔒 Coming Soon | — | — |
@@ -49,6 +50,7 @@ This repo is for students and developers who want to crack SWE interviews by bui
 | 16 | 🤑 Greedy Algorithms | 🔒 Coming Soon | — | — |
 | 17 | 🌲 Tries | 🔒 Coming Soon | — | — |
 | 18 | 🔢 Bit Manipulation | 🔒 Coming Soon | — | — |
+<!-- PROGRESS_TABLE_END -->
 
 ---
 
@@ -339,11 +341,11 @@ java -cp LeetCode LC001_TwoSum
 
 <div align="center">
 
-![Jeevith's GitHub Stats](https://github-readme-stats.vercel.app/api?username=jeevithswarup&show_icons=true&theme=tokyonight&hide_border=true&count_private=true)
+![Jeevith's GitHub Stats](https://github-stats-alpha.vercel.app/api?username=jeevithswarup&cc=0d1117&tc=ffffff&ic=ffffff&bc=0d1117)
 
-![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=jeevithswarup&layout=compact&theme=tokyonight&hide_border=true)
+![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=jeevithswarup&layout=compact&theme=tokyonight&hide_border=true&cache_seconds=1800)
 
-![GitHub Streak](https://streak-stats.demolab.com?user=jeevithswarup&theme=tokyonight&hide_border=true)
+![GitHub Streak](https://nirzak-streak-stats.vercel.app?user=jeevithswarup&theme=tokyonight&hide_border=true)
 
 ### 🧩 Problem Solving Stats (via Codolio)
 
