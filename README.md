@@ -5,7 +5,7 @@
 ### *Stop grinding randomly. Start thinking in patterns.*
 
 [![Java](https://img.shields.io/badge/Language-Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white)](https://www.java.com/)
-[![LeetCode](https://img.shields.io/badge/Platform-LeetCode-FFA116?style=for-the-badge&logo=leetcode&logoColor=black)](https://leetcode.com/u/jeevithswarup/)
+[![LeetCode](https://img.shields.io/badge/Platform-LeetCode-FFA116?style=for-the-badge&logo=leetcode&logoColor=black)](https://leetcode.com/u/Jeevith_1722/)
 [![Status](https://img.shields.io/badge/Status-Active%20🔥-brightgreen?style=for-the-badge)](https://github.com/jeevithswarup/java-basics)
 [![License](https://img.shields.io/badge/License-MIT-blue?style=for-the-badge)](LICENSE)
 [![Last Commit](https://img.shields.io/github/last-commit/jeevithswarup/java-basics?style=for-the-badge&color=purple)](https://github.com/jeevithswarup/java-basics/commits/main)
@@ -344,7 +344,7 @@ java -cp LeetCode LC001_TwoSum
 
 ![GitHub Streak](https://streak-stats.demolab.com?user=jeevithswarup&theme=tokyonight&hide_border=true)
 
-[![LeetCode Stats](https://leetcard.jacoblin.cool/jeevithswarup?theme=dark&font=Nunito&ext=heatmap)](https://leetcode.com/u/jeevithswarup/)
+[![LeetCode Stats](https://leetcard.jacoblin.cool/Jeevith_1722?theme=dark&font=Nunito&ext=heatmap)](https://leetcode.com/u/Jeevith_1722/)
 
 </div>
 
@@ -354,8 +354,8 @@ java -cp LeetCode LC001_TwoSum
 
 <div align="center">
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/[YOUR-LINKEDIN-USERNAME])
-[![LeetCode](https://img.shields.io/badge/LeetCode-Profile-FFA116?style=for-the-badge&logo=leetcode&logoColor=black)](https://leetcode.com/u/jeevithswarup/)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/jeevith-swarup-tuta-284607345/)
+[![LeetCode](https://img.shields.io/badge/LeetCode-Profile-FFA116?style=for-the-badge&logo=leetcode&logoColor=black)](https://leetcode.com/u/Jeevith_1722/)
 [![GitHub](https://img.shields.io/badge/GitHub-Follow-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/jeevithswarup)
 
 </div>
