@@ -6,4 +6,8 @@
 
 class Arrays {
 
+    static void fill(char[] c, char c0) {
+        throw new UnsupportedOperationException("Not supported yet.");
+    }
+
 }
