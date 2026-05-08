@@ -75,7 +75,7 @@ public class N_Queens {
         N_Queens obj = new N_Queens();
         int n = 4;
         
-        obj.solveNQueens(n);
+        System.out.println(obj.solveNQueens(n));
 
     }
 }
