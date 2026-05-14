@@ -1,4 +1,3 @@
-package PreInsta;
 public class Prime {
     public void IsPrime(int n) {
         int i;

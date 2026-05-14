@@ -43,6 +43,10 @@ class Order {
         this.product = product;
     }
 
+    Order(Product product) {
+        this(new User(),product);
+    }
+
     void displayOrderDetails() {
         System.out.println(user.name + " ordered " +product.productName +" worth Rs "+ product.price);
     }
