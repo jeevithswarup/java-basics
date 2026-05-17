@@ -21,11 +21,18 @@ public class InsertionsLL {
         if (head == null) {
             head = newnode;
             tail = newnode;
-        }
-        else {
+        } else {
             tail.next = newnode;
             tail = newnode;
         }
+    }
+    
+    public Node removeHead() {
+        if (head == null)
+            return head;
+        head = head.next;
+        return head;
+        
     }
 
     private void Print() {
@@ -45,6 +52,8 @@ public class InsertionsLL {
         obj.insertatend(20);
         obj.insertatend(30);
         obj.insertatend(50);
-        obj.Print();
+        obj.Print();     //normal linked list
+        obj.removeHead();
+        obj.Print();     // Removed Head
     }
 }
