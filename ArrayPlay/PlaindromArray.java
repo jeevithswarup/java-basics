@@ -1,8 +1,6 @@
-
-
-public class loop {
+public class PlaindromArray {
+    
     public static void main(String[] args) {
         
-      int 
- }   
+    }
 }
