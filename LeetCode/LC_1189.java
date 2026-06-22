@@ -23,7 +23,7 @@ class LC_1189{
         );
     }
 }
-     public 
+
  
 }
  
