@@ -1,5 +1,4 @@
 import java.util.ArrayList;
-import java.util.Arrays;
 import java.util.Stack;
 
 public class PreviousSmallerElement {
@@ -26,8 +25,8 @@ public class PreviousSmallerElement {
     }
     public static void main(String[] args) {
         PreviousSmallerElement obj = new PreviousSmallerElement();
-        int[] arr = new int[] { 4, 5, 2, 10, 8 };
-        System.out.println(Arrays.toString(arr));
+        int[] arr = new int[]{ 4, 5, 2, 10, 8 };
+        System.out.println(obj.prevSmaller(arr));
 
     }
 }
