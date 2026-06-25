@@ -10,4 +10,9 @@ class Arrays {
         throw new UnsupportedOperationException("Not supported yet.");
     }
 
+    public static char[] toString(int[] nextElementCircular) {
+        // TODO Auto-generated method stub
+        throw new UnsupportedOperationException("Unimplemented method 'toString'");
+    }
+
 }

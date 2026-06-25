@@ -1,24 +1,27 @@
 
 import java.util.Arrays;
+import java.util.Stack;
 
 public class NextGreaterElement {
    
 
     public int[] nextGreaterElement(int[] arr, int n) {
+        Stack<Integer> st = new Stack<>();
         int[] res = new int[n];
-        Arrays.fill(res, -1);
-        for (int i = 0; i < n; i++) {
-            int nextGreaternumber = -1;
-            for (int j = i + 1; j < n; j++) {
-                if (arr[i] < arr[j]) {
-                    nextGreaternumber = arr[j];
-                    res[i] = nextGreaternumber;
-                    break;
-                } else {
-                    res[i] = nextGreaternumber;
-                }
+        for (int i = n - 1; i >= 0; i--) {
+
+            while (!st.isEmpty() && st.peek() <= arr[i]) {
+                st.pop();
             }
-        }
+                if (st.isEmpty()) {
+                    res[i] = -1;
+                } else {
+                    res[i] = st.peek();
+                }
+                st.push(arr[i]);
+
+            }
+        
      
         return res;
     }
@@ -34,3 +37,20 @@ public class NextGreaterElement {
 }
 }
 
+
+
+// -------------------------------------------Bruteforce
+//  int[] res = new int[n];
+//         Arrays.fill(res, -1);
+//         for (int i = 0; i < n; i++) {
+//             int nextGreaternumber = -1;
+//             for (int j = i + 1; j < n; j++) {
+//                 if (arr[i] < arr[j]) {
+//                     nextGreaternumber = arr[j];
+//                     res[i] = nextGreaternumber;
+//                     break;
+//                 } else {
+//                     res[i] = nextGreaternumber;
+//                 }
+//             }
+//         }
