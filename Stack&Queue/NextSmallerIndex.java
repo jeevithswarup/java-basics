@@ -8,7 +8,7 @@ public class NextSmallerIndex {
         for (int i = arr.length - 1; i >= 0; i--) {
             
             
-            while (!st.isEmpty() && arr[i] >= arr[st.peek()-1]) {
+            while (!st.isEmpty() && arr[i] <= arr[st.peek()]) {
                 st.pop();
                 
             }
@@ -16,7 +16,7 @@ public class NextSmallerIndex {
             if (st.isEmpty()) {
                 res[i] = arr.length;
             } else {
-                res[i] =i;
+                res[i] =arr[st.peek()];
             }
 
             st.push(i);
