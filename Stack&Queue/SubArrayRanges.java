@@ -10,7 +10,7 @@ public class SubArrayRanges {
             int min = Integer.MAX_VALUE;
             int max = Integer.MIN_VALUE;
 
-            for (int j = i; j < arr.length; j++) {
+            for (int j = i+1; j < arr.length; j++) {
                 min = Math.min(min, arr[j]);
                 max = Math.max(max, arr[j]);
 
