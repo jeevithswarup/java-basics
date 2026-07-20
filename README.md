@@ -39,10 +39,10 @@ This repo is for students and developers who want to crack SWE interviews by bui
 | 5 | 📈 Kadane's Algorithm | ✅ Done | 3+ | Medium |
 | 6 | 🔀 Sorting Algorithms | ✅ Done | 4+ | Easy – Hard |
 | 7 | 🔍 Binary Search | ✅ Done | 10+ | Medium – Hard |
-| 8 | 🔁 Recursion | 🔄 In Progress | — | Medium |
-| 9 | 🌿 Backtracking | 🔒 Coming Soon | — | — |
-| 10 | 🔗 Linked Lists | 🔒 Coming Soon | — | — |
-| 11 | 📚 Stacks & Queues | 🔒 Coming Soon | — | — |
+| 8 | 🔁 Recursion | ✅ Done  | 10+| Medium |
+| 9 | 🌿 Backtracking | ✅ Done  | 15+ | — |
+| 10 | 🔗 Linked Lists | ✅ Done  | 20+ | — |
+| 11 | 📚 Stacks & Queues | 🔄 In Progres| 5+ | — |
 | 12 | 🌳 Trees & BST | 🔒 Coming Soon | — | — |
 | 13 | 🏔️ Heaps & Priority Queue | 🔒 Coming Soon | — | — |
 | 14 | 🕸️ Graphs (BFS / DFS) | 🔒 Coming Soon | — | — |
