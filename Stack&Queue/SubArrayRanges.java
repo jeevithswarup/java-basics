@@ -1,3 +1,5 @@
+
+
 public class SubArrayRanges {
 
     public long SubRanges(int[] arr) {
@@ -11,12 +13,17 @@ public class SubArrayRanges {
             for (int j = i; j < arr.length; j++) {
                 min = Math.min(min, arr[j]);
                 max = Math.max(max, arr[j]);
-              
-                sum +=(max - min);
-            }   
+
+                sum += (max - min);
+            }
         }
         return sum;
     }
-    
+    public static void main(String[] args) {
+        SubArrayRanges obj = new SubArrayRanges();
+         
+        int[] arr = new int[] { 4, -2, -3, 4, 1 };
+        System.out.println(obj.SubRanges(arr));
+   }   
 }
 
